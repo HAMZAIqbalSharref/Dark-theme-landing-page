@@ -146,3 +146,75 @@ button:hover{
     font-size: medium;
     font-family:'Times New Roman', Times, serif;
 }
+
+.testimonial-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.testimonial-container{
+    max-width: 1100;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 120px;
+
+}
+
+.testimonial-cards{
+    border:2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    background-image: url('images/bg-quotes.png');
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+.reviews{
+    color: white;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.name{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.title{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.signup{
+    max-width: 1100;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    color: white;
+    border:2px solid rgba(255, 255, 255, 0.1);
+    gap:30px;
+}
+
+
+.signup-container{
+ 
+    border-radius: 5px;
+    background-color: hsl(219, 30%, 18%);
+
+}
