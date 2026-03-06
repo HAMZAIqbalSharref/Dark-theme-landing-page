@@ -198,23 +198,56 @@ button:hover{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
 }
-
 .signup{
-    max-width: 1100;
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction:row;
-    gap: 30px;
-    color: white;
-    border:2px solid rgba(255, 255, 255, 0.1);
-    gap:30px;
+    padding:120px 20px;
 }
 
-
 .signup-container{
- 
-    border-radius: 5px;
-    background-color: hsl(219, 30%, 18%);
+    max-width:1100px;
+    width:90%;
+    margin:0 auto;
+  
+    border-radius:12px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.4);
+    padding:40px 60px;
+    text-align:center;
+    color:white;
+}
 
+#Early{
+    padding-bottom:15px;
+}
+
+#Question{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+}
+
+.form-row{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+
+}
+
+.email-input{
+    flex:1;
+    padding:14px 20px;
+    border-radius:25px;
+    border:none;
+    background-color : white;
+}
+
+.email-input:focus{
+    outline:none;
+    border:2px solid cyan;
+}
+
+.signup-btn{
+    padding:14px 24px;
+    border-radius:25px;
+    border:none;
+    background-color:cyan;
+    color:black;
+    cursor:pointer;
 }
