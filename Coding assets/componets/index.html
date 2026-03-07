@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="app.js" defer></script>
     <title>Fylo</title>
 </head>
 <body>
@@ -31,6 +33,7 @@
         <button>Get started</button>
     </main>
     
+
     <section class="features">
         
         <div class="card">
@@ -85,21 +88,21 @@
                 <testimonials class="testimonial-container">
 
                     <testimonials class="testimonial-cards">
-                        <img src="images/profile-1.jpg" alt="Satish Patel" class="profile-img">
+                        <img src="/Coding assets/images/profile-1.jpg" alt="Satish Patel" class="profile-img">
                         <p class="reviews">"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."</p>
                         <p class="name">Satish Patel</p>
                         <p class="title">Founder & CEO, Huddle</p>
                     </testimonials>
 
                     <testimonials class="testimonial-cards">
-                        <img src="images/profile-2.jpg" alt="Bruce McKenzie" class="profile-img">
+                        <img src="/Coding assets/images/profile-2.jpg" alt="Bruce McKenzie" class="profile-img">
                         <p class="reviews">"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."</p>
                         <p class="name">Bruce McKenzie</p>
                         <p class="title">Founder & CEO, Huddle</p>
                     </testimonials>
 
                     <testimonials class="testimonial-cards">
-                        <img src="images/profile-3.jpg" alt="Iva Boyd" class="profile-img">
+                        <img src="/Coding assets/images/profile-3.jpg" alt="Iva Boyd" class="profile-img">
                         <p class="reviews">"Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."</p>
                         <p class="name">Iva Boyd</p>
                         <p class="title">Founder & CEO, Huddle</p>
@@ -118,10 +121,49 @@
                     
                     <div class="form-row">
                      <input type="text"  id="email" placeholder="email@example.com" class="email-input">
-                <button class="signup-btn">Get Started For Free</button>   
+                <button class="signup-btn" onclick="EmailValidation()">Get Started For Free</button>   
                     </div>
                      
                 </div>
             </section>
+            
+            <footer class="footer">
+                <div class="footer-container">
+                    
+                    <div class="footer-brand">
+                        <img src="/Coding assets/images/logo.svg" alt="logo" class="footer-logo">
+                        <p class="footer-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis nostrum accusamus voluptate doloribus consequuntur perferendis voluptatum? Dolorem, itaque repellat? Aliquid ad odio consequatur a sint debitis odit quam voluptates, hic, incidunt esse. Officiis odit voluptatum soluta possimus quam dignissimos laborum sequi, vel architecto voluptas, saepe nostrum repellendus numquam labore doloribus!</p>
+                    </div>
+                    
+                    
+                    <div class="footer-contact">
+                       <div class="contact-item">
+                         <img src="/Coding assets/images/icon-phone.svg" alt="">
+                        <p>012384214</p>
+                    </div>
+                        
+                      <div class="contact-item">
+                          <img src="/Coding assets/images/icon-email.svg" alt="">
+                          <p>exmple@gmial.com</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <a href="#">About us</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">Press</a>
+                        <a href="#">Blog</a>
+                    </div>
+
+                        <div class="footer-social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-github"></i>
+                        </div>
+                        
+                  
+
+                </div>
+            </footer>
 </body>
 </html>
